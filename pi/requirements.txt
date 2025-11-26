@@ -1,0 +1,23 @@
+# --- Core Python essentials ---
+numpy==1.26.4
+scipy==1.12.0
+
+# --- Data logging (HDF5) ---
+h5py==3.10.0
+
+# --- Serial communication (RS485, UART) ---
+pyserial==3.5
+
+# --- Web dashboard (simple Flask UI) ---
+Flask==3.0.0
+Werkzeug==3.0.1
+Jinja2==3.1.3
+
+# --- YAML config loading ---
+PyYAML==6.0.1
+
+# --- Mapping + visualization ---
+matplotlib==3.8.2
+
+# --- Utilities ---
+tqdm==4.66.1

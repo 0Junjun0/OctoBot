@@ -1,0 +1,48 @@
+# --------------------------------------
+# Python virtual environments
+# --------------------------------------
+venv/
+pi/venv/
+*/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Wheel caches
+*.egg-info/
+.eggs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# --------------------------------------
+# PlatformIO (ESP32 firmware)
+# --------------------------------------
+firmware/.pio/
+firmware/.vscode/.browse.c_cpp.db*
+
+# --------------------------------------
+# Logs and generated data
+# --------------------------------------
+data/raw/
+data/*.h5
+
+# --------------------------------------
+# OS junk files
+# --------------------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------------------
+# Node / web UI (if you add JS later)
+# --------------------------------------
+node_modules/
+
+# --------------------------------------
+# Backup files
+# --------------------------------------
+*.swp
+*.swo
